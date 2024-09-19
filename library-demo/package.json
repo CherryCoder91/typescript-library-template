@@ -7,7 +7,9 @@
     "clean": "rimraf dist/",
     "copy-files": "copyfiles -u 1 public/**/*.html public/**/*.css dist/",
     "build": "npm run clean && npm run copy-files && webpack",
-    "serve": "webpack serve --mode development"
+    "serve": "webpack serve --mode development",
+    "link:library": "npm link ../library",
+    "unlink:library": "npm unlink ../library"
   },
   "devDependencies": {
     "copyfiles": "^2.4.1",
