@@ -40,3 +40,9 @@ to build and output the demo app dist/ use the following command in the library 
 ```bash
 npm run build
 ```
+
+Tests have been setup using web test runner, you can run the tests using the following command in the library directory:
+
+```bash
+npm run test
+```
