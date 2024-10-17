@@ -23,7 +23,7 @@ You can build and watch changes to the library using the following command in th
 npm run build:watch
 ```
 
-Link the library to the demo app using the following command in the library directory:
+Link the library to the demo app using the following command in the library demo directory:
 
 ```bash
 npm run link:library
