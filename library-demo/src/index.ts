@@ -1,3 +1,5 @@
 import { exampleFunction } from 'library';
 
-console.log(exampleFunction());
+export function run() {
+    console.log(exampleFunction());
+}
